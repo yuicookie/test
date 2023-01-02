@@ -1,5 +1,9 @@
+/* ダブルタップ禁止 */
+html {
+  touch-action: manipulation;
+}
 /* 文字選択禁止 */
-body{
+body {
   user-select:none;
   -webkit-user-select:none;
   -ms-user-select: none;
@@ -18,8 +22,8 @@ img {
 }
 body {
   margin: 0;
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 1920px;
+  min-width: 1920px;
 }
 /* タイトル範囲 */
 .title_area {
