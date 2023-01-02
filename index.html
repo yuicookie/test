@@ -1,48 +1,30 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
+
 <head>
-<meta charset="utf-8">
-<style>
-.wrap{width:1920px;}
-header{ background:#fc9; }
-section{display:flex;}
-#main{ width:1152px; height: 850px; background:#dfd; }
-nav{ width:768px; height: 850px; background:#ddf; }
-footer{ background:#f0f; }
-</style>
+  <meta charset="UTF-8">
+  <title>LINEクッキーラン</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 </head>
-<body>
-<div class="wrap">
-<header>
-ここはヘッダーです。
-</header>
-<section>
-<div id="main">
-<h1>HTML/CSSでWebページ作成</h1>
-<h2>Webサイトの仕組み</h2>
-<p>Webサイトとは、Webページをひとまとまりにして公開したWebページの集まりのことです。</p>
-<h3>Webブラウザとは</h3>
-<p>Webブラウザの説明が入ります。</p>
-<h3>Webページの構成</h3>
-<p>Webページの構成の説明が入ります。</p>
-<h3>Webページの表示</h3>
-<p>Webページの表示の説明が入ります。</p>
+
+<!-- 画像ドラッグ禁止 -->
+<body onMouseDown="return false;" onSelectStart="return false">
+<div class="title_area">
+  <img id="title" class="title" src="img/title.png">
+  <img id="kiyaku" class="kiyaku" src="img/kiyaku.png">
+  <div id="kiyaku_title" class="kiyaku_title">利用規約</div>
+  <div id="kiyaku_setumei" class="kiyaku_setumei">・BGMが鳴ります！<br>・LINEバージョンを懐かしむため<br>　だけのサイトです。</div>
+  <img id="agree" class="agree" src="img/agree.png">
+  <img id="agree_black" class="agree_black" src="img/agree_black.png">
+  <img id="agree_check" class="agree_check" src="img/agree_check.png">
+  <img id="ok_btn" class="ok_btn" src="img/ok_btn.png">
+  <img id="ok_btn_black" class="ok_btn_black" src="img/ok_btn_black.png">
 </div>
-<nav>
-<ul>
-<li>Webサイトの仕組み</li>
-<li>HTMLとCSSの概要</li>
-<li>HTMLの基本</li>
-<li>head要素内の記述</li>
-<li>body要素内の記述</li>
-<li>id属性とclass属性の設定</li>
-<li>HTMLチュートリアル</li>
-</ul>
-</nav>
-</section>
-<footer>
-ここはフッターです。
-</footer>
-</div>
+
+<!-- ロビー画像 -->
+  <div id="container" class="container"></div>
+  <img id="lobby_epN01" class="lobby_epN01" src="img/lobby_epN01.png">
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
