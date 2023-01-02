@@ -1,0 +1,11 @@
+/* ロビー範囲 */
+.lobby_area {
+    position: relative;
+    width: 100%;
+}  
+/* 背景画像 */
+.lobby_epN01 {
+    display: none;
+    width: 100%;
+    z-index: 0;
+}

@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <title>LINEクッキーラン</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lobby.css">
   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 </head>
 
 <!-- 画像ドラッグ禁止 -->
 <body onMouseDown="return false;" onSelectStart="return false">
 <div class="title_area">
-  <img id="title" class="title" src="img/title.png">
+  <div id="title" class="title"></div>
+  <!-- <img id="title" class="title" src="img/title.png"> -->
   <img id="kiyaku" class="kiyaku" src="img/kiyaku.png">
   <div id="kiyaku_title" class="kiyaku_title">利用規約</div>
   <div id="kiyaku_setumei" class="kiyaku_setumei">・BGMが鳴ります！<br>・LINEバージョンを懐かしむため<br>　だけのサイトです。</div>
@@ -23,8 +25,9 @@
 </div>
 
 <!-- ロビー画像 -->
-  <div id="container" class="container"></div>
+<div class="lobby_area">
   <img id="lobby_epN01" class="lobby_epN01" src="img/lobby_epN01.png">
+</div>
 </body>
 <script type="text/javascript" src="script.js"></script>
 </html>
