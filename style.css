@@ -26,6 +26,12 @@ body {
   position: relative;
   width: 90%;
 }
+/* 背景画像 */
+.lobby_epN01 {
+    display: none;
+    width: 100%;
+    z-index: 0;
+}
 /* タイトル画像 */
 .title {
   width: 90%;
