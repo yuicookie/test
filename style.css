@@ -17,28 +17,23 @@ img {
   -moz-user-select:none;
 }
 body {
+  margin: 0;
   max-width: 1920px;
   min-width: 1920px;
-}  
-/* 背景画像 */
-.lobby_epN01 {
-  display: none;
-  width: 100%;
-  z-index: 0;
 }
 /* タイトル範囲 */
 .title_area {
   position: relative;
-  width: 100%;
+  width: 90%;
 }
 /* タイトル画像 */
 .title {
-  width: 100%;
+  width: 90%;
   z-index: 0;
 }
 .kiyaku {
   position: absolute;
-  width: 100%;
+  width: 90%;
   top: 0px;
   left: 0px;
   z-index: 1;
@@ -46,22 +41,22 @@ body {
 .kiyaku_title{
   position: absolute;
   font-weight: bold;
-  font-size: 70px;
-  top: 140px;
-  left: 830px;
+  font-size: 67px;
+  top: 100px;
+  left: 650px;
   z-index: 1;
 }
 .kiyaku_setumei{
   position: absolute;
-  font-size: 40px;
-  top: 400px;
-  left: 670px;
+  font-size: 36px;
+  top: 280px;
+  left: 500px;
   z-index: 1;
 }
 .agree,.agree_black,.agree_check {
   position: absolute;
-  top: 660px;
-  left: 770px;
+  top: 520px;
+  left: 590px;
   width: 380px;
   z-index: 2;
 }
@@ -70,8 +65,8 @@ body {
 }
 .ok_btn,.ok_btn_black {
   position: absolute;
-  top: 820px;
-  left: 820px;
+  top: 680px;
+  left: 640px;
   width: 280px;
   z-index: 2;
 }
