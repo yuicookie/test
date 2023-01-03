@@ -62,3 +62,13 @@ let elem_loop = document.getElementById("bgm");
  false;
     console.log("押してない");
 }});
+
+// $(window).on('load', function () {
+//   let innerHeight = window.innerHeight;
+//   $('.title').css('height', innerHeight + 'px');
+//   $('.kiyaku').css('height', innerHeight + 'px');
+//   $('.kiyaku_title').css('height', innerHeight + 'px');
+//   $('.kiyaku_setumei').css('height', innerHeight + 'px');
+//   console.log(innerHeight);
+//   console.log(innerHeight + 'px');
+// });
