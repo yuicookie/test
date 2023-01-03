@@ -23,6 +23,8 @@ img {
 body {
   margin: 0;
   font-family: "HGSｺﾞｼｯｸE","ヒラギノ丸ゴ ProN";
+  max-width: 1920px;
+  min-width: 850px;
 }
 /* タイトル範囲 */
 .title_area {
