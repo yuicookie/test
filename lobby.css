@@ -1,66 +1,71 @@
 /* ロビー範囲 */
 .lobby_area {
   position: relative;
-
-}  
+  width: 100%;
+}
+@media (max-width: 1200px) {
+  .lobby_area {
+	  margin: 0 220px 0 220px;
+	}
+}
 /* ロビー画像 */
 .lobby_epN01 {
-
+  width: 100%;
   z-index: 0;
 }
 .level_max {
   position: absolute;
-
-  top: 5px;
-  left: 70px;
+  width: 220px;
+  top: 10px;
+  left: 145px;
   z-index: 2;
 }
 .package {
   position: absolute;
-
-  top: 0px;
-  left: 190px;
+  width: 120px;
+  top: -5px;
+  left: 355px;
   z-index: 2;
 }
 .crystal_box {
   position: absolute;
-
-  top: 5px;
-  left: 260px;
+  width: 275px;
+  top: 10px;
+  left: 465px;
   z-index: 2;
 }
 .coin_box {
   position: absolute;
-
-  top: 5px;
-  left: 420px;
+  width: 375px;
+  top: 10px;
+  left: 740px;
   z-index: 2;
 }
 .heart_box {
   position: absolute;
-  width: 340px;
-  top: 5px;
-  left: 640px;
+  width: 535px;
+  top: 10px;
+  left: 1110px;
   z-index: 2;
 }
 .setting {
   position: absolute;
-
-  top: 5px;
-  left: 980px;
+  width: 85px;
+  top: 10px;
+  left: 1650px;
   z-index: 2;
 }
 .league_header {
   position: absolute;
-
-  top: 50px;
-  left: 120px;
+  width: 940px;
+  top: 80px;
+  left: 185px;
   z-index: 1;
 }
 .league_footer {
   position: absolute;
-
-  top: 550px;
-  left: 120px;
+  width: 940px;
+  top: 940px;
+  left: 185px;
   z-index: 1;
 }
