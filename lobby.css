@@ -1,11 +1,66 @@
 /* ロビー範囲 */
 .lobby_area {
-    position: relative;
-    width: 100%;
+  position: relative;
+
 }  
-/* 背景画像 */
+/* ロビー画像 */
 .lobby_epN01 {
-    display: none;
-    width: 100%;
-    z-index: 0;
+
+  z-index: 0;
+}
+.level_max {
+  position: absolute;
+
+  top: 5px;
+  left: 70px;
+  z-index: 2;
+}
+.package {
+  position: absolute;
+
+  top: 0px;
+  left: 190px;
+  z-index: 2;
+}
+.crystal_box {
+  position: absolute;
+
+  top: 5px;
+  left: 260px;
+  z-index: 2;
+}
+.coin_box {
+  position: absolute;
+
+  top: 5px;
+  left: 420px;
+  z-index: 2;
+}
+.heart_box {
+  position: absolute;
+  width: 340px;
+  top: 5px;
+  left: 640px;
+  z-index: 2;
+}
+.setting {
+  position: absolute;
+
+  top: 5px;
+  left: 980px;
+  z-index: 2;
+}
+.league_header {
+  position: absolute;
+
+  top: 50px;
+  left: 120px;
+  z-index: 1;
+}
+.league_footer {
+  position: absolute;
+
+  top: 550px;
+  left: 120px;
+  z-index: 1;
 }

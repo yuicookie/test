@@ -24,22 +24,22 @@ body {
   margin: 0;
   font-family: "HGSｺﾞｼｯｸE","ヒラギノ丸ゴ ProN";
   max-width: 1920px;
-  min-width: 850px;
+  min-width: 1920px;
 }
 /* タイトル範囲 */
 .title_area {
   position: relative;
+  width: 100%;
+  display: none;
 }
 /* タイトル画像 */
 .title {
-  width: auto;
-  height: 100vh;
+  width: 100%;
   z-index: 0;
 }
 .kiyaku {
   position: absolute;
-  width: auto;
-  height: 100vh;
+  width: 100%;
   top: 0px;
   left: 0px;
   z-index: 1;
@@ -47,27 +47,26 @@ body {
 .kiyaku_title{
   position: absolute;
   font-family: "HGSｺﾞｼｯｸE","ヒラギノ丸ゴ ProN";
-  font-size: 8vh;
+  font-size: 70px;
   color: #3d2525;
-  top: 12vh;
-  left: 74vh;
+  top: 140px;
+  left: 830px;
   z-index: 1;
 }
 .kiyaku_setumei{
   position: absolute;
   font-family: "HGSｺﾞｼｯｸE","ヒラギノ丸ゴ ProN";
-  font-size: 4vh;
+  font-size: 40px;
   color: #3d2525;
-  top: 37vh;
-  left: 59vh;
+  top: 400px;
+  left: 670px;
   z-index: 1;
 }
 .agree,.agree_black,.agree_check {
   position: absolute;
-  top: 60vh;
-  left: 70vh;
-  width: 39vh;
-  height: 13vh;
+  top: 660px;
+  left: 770px;
+  width: 380px;
   z-index: 2;
 }
 .agree_black,.agree_check{
@@ -75,10 +74,9 @@ body {
 }
 .ok_btn,.ok_btn_black {
   position: absolute;
-  top: 76vh;
-  left: 74.5vh;
-  width: 30vh;
-  height: 12vh;
+  top: 820px;
+  left: 820px;
+  width: 280px;
   z-index: 2;
 }
 .ok_btn{
