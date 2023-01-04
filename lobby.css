@@ -3,11 +3,6 @@
   position: relative;
   width: 100%;
 }
-@media (max-width: 1200px) {
-  .lobby_area {
-	  margin: 0 220px 0 220px;
-	}
-}
 /* ロビー画像 */
 .lobby_epN01 {
   width: 100%;
