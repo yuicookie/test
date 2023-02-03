@@ -9,7 +9,8 @@ $("body").mousedown
   );
 
 // Audioオブジェクトを作成
-let ad = new Audio("audio/xmas.m4a");
+let xmas = new Audio("audio/xmas.m4a");
+let ui_1 = new Audio("audio/ui_1.ogg");
 
 // 同意ボタン押す
 const agree_btn = document.getElementById('agree');
@@ -49,8 +50,8 @@ ok_btn_black.addEventListener('mouseup', e => {
     document.getElementById("lobby_area").style.display ="block";
     // 連続再生
 let elem_loop = document.getElementById("bgm");
-	ad.play();
-	ad.loop = true;  // ループ再生
+	xmas.play();
+	xmas.loop = true;  // ループ再生
  false;
 }});
 
@@ -70,7 +71,13 @@ league_rank_btn2.addEventListener('mouseup', e => {
   document.getElementById("league_rank_btn1").style.display ="block";
   document.getElementById("league_rank").style.display ="block";
   document.getElementById("medal").style.display ="block";
+if(ui_1_cnt == 0) {
+  ui_1.currentTime = 0;
+  ui_1.play();
+  ui_1_cnt = 1;
+}
 });
+ui_1_cnt = 0;
 
 // 友達ランキングボタン押す
 const league_rank_btn1 = document.getElementById('league_rank_btn1');
@@ -88,4 +95,20 @@ friend_rank_btn1.addEventListener('mouseup', e => {
   document.getElementById("friend_rank").style.display ="block";
   document.getElementById("friend_rank_btn2").style.display ="block";
   document.getElementById("combi_bonus").style.display ="block";
+if(ui_1_cnt == 1) {
+  ui_1.currentTime = 0;
+  ui_1.play();
+  ui_1_cnt = 0;
+}
 });
+
+// 勇敢なクッキーの顔を変える
+setInterval(function(){
+  document.getElementById("ginger_cookie_face").style.display ="none";
+},200);
+setInterval(function(){
+  document.getElementById("ginger_cookie_face").style.display ="block";
+},2500);
+setInterval(function(){
+  document.getElementById("ginger_cookie_face").style.display ="block";
+},3000);

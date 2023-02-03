@@ -282,4 +282,27 @@
   top: 420px;
   left: 1280px;
   z-index: 1;
+  display: none;
+}
+.ginger_cookie {
+  position: absolute;
+  width: 355px;
+  top: 395px;
+  left: 1280px;
+  z-index: 1;
+}
+.ginger_cookie_face {
+  position: absolute;
+  width: 141.5px;
+  top: 460.7px;
+  left: 1396.87px;
+  z-index: 1;
+  display: none;
+}
+.chocodrop {
+  position: absolute;
+  width: 140px;
+  top: 485px;
+  left: 1200px;
+  z-index: 1;
 }
