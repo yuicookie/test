@@ -225,8 +225,8 @@
   color: white;
   font-size: 40px;
   font-weight:  bold;
-  top: 35px;
-  left: 630px;
+  top: 25px;
+  left: 620px;
   z-index: 5;
 }
 .coin {
@@ -234,8 +234,8 @@
   color: white;
   font-size: 40px;
   font-weight:  bold;
-  top: 35px;
-  left: 1000px;
+  top: 25px;
+  left: 990px;
   z-index: 5;
 }
 .key {
@@ -243,8 +243,8 @@
   color: #3d2525;
   font-size: 40px;
   font-weight:  bold;
-  top: 30px;
-  left: 1210px;
+  top: 20px;
+  left: 1200px;
   z-index: 5;
 }
 .heart_time {
@@ -252,8 +252,8 @@
   color: #3d2525;
   font-size: 40px;
   font-weight:  bold;
-  top: 32px;
-  left: 1470px;
+  top: 22px;
+  left: 1460px;
   z-index: 5;
 }
 .medal {
@@ -262,8 +262,8 @@
   font-size: 50px;
   font-weight:  bold;
   -webkit-text-stroke: 1px black;
-  top: 894px;
-  left: 655px;
+  top: 884px;
+  left: 645px;
   z-index: 5;
   display: none;
 }
@@ -302,7 +302,13 @@
 .chocodrop {
   position: absolute;
   width: 140px;
-  top: 485px;
+  top: 470px;
   left: 1200px;
   z-index: 1;
+  animation: anime infinite 1s ease-in;
+}
+@keyframes anime {
+  50%{
+  margin-top: 20px;
+  }
 }

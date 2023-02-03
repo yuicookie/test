@@ -22,7 +22,7 @@ img {
 }
 body {
   margin: 0;
-  font-family: "HGSｺﾞｼｯｸE","ヒラギノ角ゴシック";
+  font-family: "ヒラギノ角ゴシック";
   max-width: 1920px;
   min-width: 1920px;
 }
@@ -45,7 +45,7 @@ body {
 }
 .kiyaku_title{
   position: absolute;
-  font-family: "HGSｺﾞｼｯｸE","ヒラギノ丸ゴ ProN";
+  font-family: "HGSｺﾞｼｯｸE";
   font-size: 70px;
   color: #3d2525;
   top: 140px;
@@ -54,7 +54,7 @@ body {
 }
 .kiyaku_setumei{
   position: absolute;
-  font-family: "HGSｺﾞｼｯｸE","ヒラギノ丸ゴ ProN";
+  font-family: "HGSｺﾞｼｯｸE";
   font-size: 40px;
   color: #3d2525;
   top: 400px;
